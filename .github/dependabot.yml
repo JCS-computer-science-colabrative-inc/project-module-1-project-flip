@@ -3,9 +3,11 @@
 # Please see the documentation for all configuration options:
 # https://help.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
 
-version: 2
-updates:
-  - package-ecosystem: "npm" # See documentation for possible values
-    directory: "Project_Flip-Vite" # Location of package manifests
-    schedule:
-      interval: "daily"
+#version: 2
+#updates:
+#  - package-ecosystem: "npm" # See documentation for possible values
+#    directory: "Project_Flip-Vite" # Location of package manifests
+#    schedule:
+#      interval: "daily"
+
+#commented to disable dependabot updates on the repo, since it can't be properly archived.
