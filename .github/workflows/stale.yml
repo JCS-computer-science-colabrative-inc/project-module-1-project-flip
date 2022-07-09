@@ -21,11 +21,11 @@ jobs:
     - uses: actions/stale@v4
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
-        stale-issue-message: 'This Issue is now Stale due to inactivity, it will be automatically closed if activity is not resumed'
-        stale-pr-message: 'This Pull Request is now Stale due to inactivity, it will be automatically closed if activity is not resumed'
+        stale-issue-message: 'this repository is no longer active'
+        stale-pr-message: 'this repository is no longer active'
         stale-issue-label: 'no-issue-activity'
         stale-pr-label: 'no-pr-activity'
-        days-before-issue-stale: 30
-        days-before-pr-stale: 45
-        days-before-issue-close: 5
-        days-before-pr-close: 10
+        days-before-issue-stale: 1
+        days-before-pr-stale: 1
+        days-before-issue-close: 1
+        days-before-pr-close: 1
